@@ -1,6 +1,6 @@
 -Öncelikle 5 il seçildi. Bu illerin city_id'leri ilbulucu.php dosyası yardımıyla çekilen datadan manuel olarak bakarak yazıldı.
 -Weather veritabanı açıldı,cities tablosuna şehir adları ve id'leri eklendi.
--Sonrasında period tablosuna rapor iştenecek dönemler (anlık, bir gümlük,üç günlük, beş günlük) eklendi.
+-Sonrasında period tablosuna rapor iştenecek dönemler (anlık, bir günlük,üç günlük, beş günlük) eklendi.
 -index.php'ye il ve periyod seçimi için form eklendi.
 -submit edilen şehir adı kullanılarak curl ile json datası çekildi, sonra object olarak decode edildi.
 -forecasts adı altında kullanıcıya gösterilecek verileri içeren bir tablo oluşturuldu. 
